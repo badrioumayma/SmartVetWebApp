@@ -1,0 +1,141 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f9;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e6f0fc, #f8f9fe);
+  padding: 20px;
+}
+
+.login-left {
+  flex: 1;
+  text-align: center;
+}
+
+.login-left img {
+  max-width: 80%;
+  height: auto;
+}
+
+.login-right {
+  flex: 1;
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-right h2 {
+  color: #24275c;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.login-right p {
+  color: #7c7d87;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  position: absolute;
+  left: 10px;
+  font-size: 1.2rem;
+  color: #7c7d87;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  color: #436db5;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons .btn {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background: #436db5;
+  color: #fff;
+}
+
+.signin-btn:hover {
+  background: #354b85;
+}
+
+.signup-btn {
+  background: #a5bbe2;
+  color: #24275c;
+}
+
+.signup-btn:hover {
+  background: #7c9fc9;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  color: #7c7d87;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #436db5;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #354b85;
+}
+
+.d-flex a i {
+  color: #24275c; /* Apply the desired color to the icons */
+}
+
+.d-flex a i:hover {
+  color: #354b85; /* Optional: Add hover effect if needed */
+}
