@@ -29,13 +29,10 @@
 
           
           <div class="d-flex">
-            <button
-          class="btn btn-custom-login me-2"
-          g="/login"
-        >
-          Login
-        </button>
-            <button class="btn btn-custom-signin">Sign Up</button>
+            <button class="btn btn-custom-login me-2" (click)="navigateToLogin()">
+              SignIn
+            </button>
+            <button class="btn btn-custom-signin" (click)="navigateToSignup()">Sign Up</button>
           </div>
         </div>
       </div>
