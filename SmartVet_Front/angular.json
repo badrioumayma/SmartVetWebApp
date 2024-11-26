@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SmartVet": {
+    "SmartVet_Front": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/smart-vet",
+            "outputPath": "dist/smart-vet-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -22,16 +22,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/manifest.webmanifest"
+              "src/assets"
             ],
             "styles": [
-              "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": [],
-            "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -64,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SmartVet:build:production"
+              "browserTarget": "SmartVet_Front:build:production"
             },
             "development": {
-              "browserTarget": "SmartVet:build:development"
+              "browserTarget": "SmartVet_Front:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SmartVet:build"
+            "browserTarget": "SmartVet_Front:build"
           }
         },
         "test": {
@@ -88,8 +84,7 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/manifest.webmanifest"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
