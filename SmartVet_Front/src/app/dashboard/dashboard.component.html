@@ -1,0 +1,83 @@
+<div class="dashboard-container">
+  <app-side-bar></app-side-bar>
+
+  <!-- Main Dashboard Content -->
+  <div class="dashboard-content">
+    <div class="dashboard-header">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <p class="text-muted">Good Morning,</p>
+          <h2>William Johnson</h2>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="fas fa-bell text-muted fs-4 me-3"></i>
+          <img src="assets/profile.jpg" alt="Profile" class="rounded-circle" width="50" height="50" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrollable Anime Cards Section -->
+    <div class="anime-scroll-container mt-4">
+      
+      <div class="scrollable-anime-cards d-flex overflow-auto">
+        <div class="anime-card">
+          <img src="assets/anime1.jpg" alt="Anime 1" class="anime-image" />
+          <div class="anime-info">
+            <h5>Anime Name 1</h5>
+            <button class="explore-button">Explore More</button>
+          </div>
+        </div>
+        <div class="anime-card">
+          <img src="assets/anime2.jpg" alt="Anime 2" class="anime-image" />
+          <div class="anime-info">
+            <h5>Anime Name 2</h5>
+            <button class="explore-button">Explore More</button>
+          </div>
+        </div>
+        <div class="anime-card">
+          <img src="assets/anime3.jpg" alt="Anime 3" class="anime-image" />
+          <div class="anime-info">
+            <h5>Anime Name 3</h5>
+            <button class="explore-button">Explore More</button>
+          </div>
+        </div>
+        <!-- Add more anime cards as needed -->
+      </div>
+    </div>
+
+  
+
+    <!-- Health Cards Section -->
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm p-3">
+          <p class="text-muted">Temperature</p>
+          <h3>36.6°C</h3>
+          <span class="text-danger">-1.8%</span>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm p-3">
+          <p class="text-muted">Blood Pressure</p>
+          <h3>80/120</h3>
+          <span class="text-success">+0.4%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heart Rate Section -->
+    <div class="card shadow-sm p-4 mt-4">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>Heart Rate</h4>
+        <a href="#" class="text-decoration-none text-muted">View All Trends &rarr;</a>
+      </div>
+      <h1 class="text-center">92</h1>
+      <p class="text-center text-muted">avg bpm</p>
+      <div>
+        <!-- Example Bar Graph -->
+        <img src="assets/graph-placeholder.png" alt="Graph Placeholder" class="w-100" />
+      </div>
+    </div>
+  </div>
+</div>

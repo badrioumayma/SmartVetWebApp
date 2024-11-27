@@ -1,0 +1,98 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+ .logo{
+  width: 150px;
+  height: 100px;
+ }
+  
+  .dashboard-content {
+    flex: 1; /* Occupy remaining space */
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .card1 {
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .card {
+    border: none;
+    border-radius: 10px;
+   
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
+  .fa-bell {
+    cursor: pointer;
+  }
+  
+  img.rounded-circle {
+    border: 2px solid #dee2e6;
+  }
+  
+  a {
+    font-size: 0.9rem;
+  }
+  
+  /* Styles for the scrollable anime cards section */
+.anime-scroll-container {
+  margin-top: 20px;
+}
+
+.scrollable-anime-cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.anime-card {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.anime-info h5 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.explore-button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.explore-button:hover {
+  background-color: #45a049;
+}
