@@ -1,7 +1,7 @@
 /* Sidebar container */
 .sidebar {
   width: 100px; /* Initially narrow to only show icons */
-  height: 100vh;
+  height: 100%;
   background-color: #ffffff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   padding: 20px 10px;
@@ -9,7 +9,8 @@
   flex-direction: column;
   align-items: center; /* Align logo and menu items in the center */
   transition: width 0.3s ease; /* Smooth transition for expanding */
-  border-radius: 20px;
+ border-radius: 20px;
+ border: #e8f6f9;
 }
 .sidebar-header{
   display:flex;

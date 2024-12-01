@@ -9,6 +9,8 @@ import {  SignUpComponent } from './sign-up/sign-up.component';
 import { AddAnimalComponent } from './add-animal/add-animal.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LocationComponent } from './location/location.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SignUpComponent,
     AddAnimalComponent,
     SideBarComponent,
-    DashboardComponent
+    DashboardComponent,
+    LocationComponent,
+
   ],
   imports: [
     BrowserModule,
