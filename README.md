@@ -77,11 +77,6 @@ The goal of SmartVet is to improve animal healthcare by combining **IoT and web 
 
 ---
 
-## 📸 Screenshots
-_Add your screenshots here_
-
----
-
 ## ⚙️ Installation
 
 ```bash
